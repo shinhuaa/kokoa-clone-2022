@@ -1,3 +1,3 @@
 #Kokoa Clone
 
-Css got so much better
+Html and Css are so much fun!
