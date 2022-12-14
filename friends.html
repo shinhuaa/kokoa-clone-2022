@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/styles.css" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,20 +23,30 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header_title">Wlecome to KokoaTalk</h1>
-      <p class="welcome-header_text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number." />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log in" />
-      <input type="submit" value="Sign up" />
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/f91e83f64f.js"
