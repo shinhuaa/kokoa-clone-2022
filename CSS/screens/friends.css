@@ -1,0 +1,9 @@
+#frineds-dispaly-link{
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 10px 0px;
+}
+#frineds-dispaly-link i{
+  color: rgba(0, 0, 0, 0.3);
+}
