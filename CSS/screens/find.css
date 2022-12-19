@@ -33,3 +33,62 @@
   font-size: 14px;
   margin-bottom: 25px;
 }
+.open-post{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+}
+.open-post__column{
+  margin: 10px 0px;
+}
+.open-post__title{
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.open-post__hashtags{
+  opacity: 0.5;
+}
+.open-post__members{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.open-post__members img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.open-post__members-count{
+  opacity: 0.5;
+  font-size: 14px;
+}
+.open-post__members .divider{
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba( 0, 0, 0, 0.3);
+}
+.open-post__members-status{
+  color: #ffb0e0;
+}
+.open-post__photo{
+  position: relative;
+}
+.open-post__photo img{
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.open-post__heart-count{
+  background-color: var(--gray);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
