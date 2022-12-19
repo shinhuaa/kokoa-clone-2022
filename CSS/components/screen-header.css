@@ -4,6 +4,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title{
   font-size: 32px;
@@ -11,4 +12,5 @@
 }
 .screen-header__icons span{
   margin-left: 25px;
+  position: relative;
 }
