@@ -8,6 +8,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/welcome-header.css";
